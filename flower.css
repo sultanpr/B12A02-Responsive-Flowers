@@ -6,7 +6,16 @@
 
 /* shared styles */
 
+body{
 
+    background-color: #F5F8FF;
+}
+
+img{
+
+    max-width: 100%;
+    height: auto;
+}
 
 h3{
     font-family: "Noto Serif", serif;
@@ -46,3 +55,135 @@ p{
 
 
 /* shared styles */
+
+header{
+    padding-top: 25px;
+}
+
+nav{
+
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+nav ul{
+
+    display: flex;
+    gap: 50px;
+    align-items:center;
+}
+
+.nav-items{
+
+    list-style: none;
+}
+
+.nav-items:hover a{
+    color: #000000;
+    font-weight: bold;
+}
+
+.active a{
+    color: #000000!important;
+    font-weight: bold;
+}
+
+.nav-items a{
+
+    text-decoration: none;
+    font-size: 16px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cart{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.cart p{
+
+    color: #000000;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    align-items:last baseline;
+}
+
+.banner-details{
+    max-width: 570px;
+}
+
+h1{
+    font-family: "Noto Serif", serif;
+    font-size:50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+main{
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Responsive Styles */
+
+@media screen and (max-width:576px) {
+
+    header{
+
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    nav ul{
+        display: none;
+    }
+
+    .cart{
+
+        margin-top: 30px;
+    }
+
+    .banner{
+        
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    img{
+
+        width: 100%;
+    }
+
+}
