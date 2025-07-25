@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+
+
+
+h3{
+    font-family: "Noto Serif", serif;
+    font-size:50px;
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 50%);
+}
+
+.flower-title{
+    color: #111111;
+    font-weight: medium;
+}
+
+.flower-price{
+    color: #111111;
+    font-weight: bold;
+}
+
+.orange-btn{
+    background-color: #E95A08;
+    padding: 25px 50px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-orange{
+    color: #E95A08;
+}
+
+
+/* shared styles */
